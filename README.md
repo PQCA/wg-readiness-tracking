@@ -26,5 +26,5 @@ approving information using the [Cryptographic Library tracker](cryptography.md)
 
 ## AI Use Guidelines
 
-It is okay to use AI to help gather information, but all PRs must be vetted by a person and acknowledge which
+It is acceptable to use AI tools to help gather information, but contributors must self-review their changes before opening a PR.
 AI tool was used.
