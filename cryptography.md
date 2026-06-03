@@ -17,7 +17,7 @@ These trackers are a crowdsourced effort; please contribute by updating the stat
 | Botan | >=3.6.0 | 🟢 Ready | C++ | ML-KEM, ML-DSA, SLH-DSA, HSS/LMS, XMSS, FrodoKEM, McEliece | |
 | Bouncy Castle	| Java >= 1.79, C# >= 2.5.0 |	🟢 Ready | Java, C#	| ML-KEM, ML-DSA, SLH-DSA	| Full support for finalized NIST standards was added in these versions (released late 2024). |
 | Conscrypt| [Commit 4b9f688](https://github.com/google/conscrypt/commit/4b9f688b241f73a89ba1eb8871b302062c1790ff)| 🟡 In Progress | Java | ML-DSA, SLH-DSA | No direct support of ML-KEM but via HPKE. Support of SLH-DSA-SHA2-128S. Supports ML-DSA-44/65/87|
-| JDK (JCA) | >=24 | 🟢 Ready | Java | ML-KEM, ML-DSA-44, ML-DSA-65, ML-DSA-87 | ML-KEM via [JEP 496](https://openjdk.org/jeps/496), ML-DSA via [JEP 497](https://openjdk.org/jeps/497) |
+| JDK (JCA) | >=24 | 🟢 Ready | Java | ML-KEM | ML-KEM via [JEP 496](https://openjdk.org/jeps/496), ML-DSA via [JEP 497](https://openjdk.org/jeps/497) |
 | JDK (TLS 1.3) | [>=27](https://openjdk.org/projects/jdk/27/) | 🟡 In Progress | Java | ML-KEM (hybrid ECDHE) | TLS 1.3 hybrid key exchange via [JEP 527](https://openjdk.org/jeps/527). Targeted for JDK 27 release. |
 | Crypto++	| N/A	| 🔴 Not Supported | C++ | None | A community fork called CryptoPP-Modern has added experimental support |
 | GnuTLS | N/A | 🔴 Not Supported | C | None | No native PQC support yet. Experimental support was available via liboqs in earlier versions but not maintained |
