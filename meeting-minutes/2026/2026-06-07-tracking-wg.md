@@ -1,11 +1,11 @@
 layout: default
-title: 2026-06-07 Tracking WG Meeting Record
+title: 2026-06-04 Tracking WG Meeting Record
 parent: 2026
 grand_parent: Meeting Minutes
 ---
 
-# Post-Quantum Cryptography Alliance - Readiness Tracking Working Group Meeting 07 June, 2026
-[**View Recording**](<pending>) 
+# Post-Quantum Cryptography Alliance - Readiness Tracking Working Group Meeting 04 June, 2026
+[**View Recording**](https://zoom.us/rec/play/FLek5nOMhDYuHjByzqfW-5gWiwz4XVN06txe6rkWQnptQf7AwiyDMaSLv5Ytcy5b5WUHmdrtLkH6DHsY.DsyJJBG8DDI91HG5?accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&oldStyle=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2FGp_14Rj1NNbEsCmf47IoJAta64eDpOdADv8rTJPmawsuzS2pQ6JK9FOTzgQc7h1o.IDuoHCYOYyiD4Y51) 
 *Recordings are also available on your [Open Profile](https://openprofile.dev/my-meetings) page under Past Meetings*  
 [**Join the meeting**](https://zoom-lfx.platform.linuxfoundation.org/meeting/92180236021?password%3Db0389cf7-46b4-4b12-8960-743736597cff&sa=D&source=calendar&ust=1779060340269221&usg=AOvVaw0xXXgXsS7I24ZkWvbZYInS)  
 [**PQCA Meeting Calendar**](https://pqca.org/calendar/)  
@@ -26,27 +26,29 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 ---
 
 ## Attendance (_Alphabetical by 1st name_)
-* [] Aditya Koranga, NgKore \[TAC Chair\]
-* [] Aleksei Odinokov, PQC Ready
-* [] Andy Warner, Google \[Tracking WG Chair\]
+* [X] Aditya Koranga, NgKore \[TAC Chair\]
+* [X] Aleksei Odinokov, PQC Ready
+* [X] Andy Warner, Google \[Tracking WG Chair\]
 * [] Avinash Nagadi
 * [] Basil Hess, IBM
 * [] Bill Turner, PKI Consortium
 * [] Christian Pfister, LGT Bank
 * [] Daniel Speciale, QInsight
 * [] Guncha Malik, IBM
-* [] Hart Montgomery, Linux Foundation
-* [] Iyán Méndez Veiga, HSLU / ETH Zurich
-* [] Jane Ginn, Cyber Threat Intelligence Network
+* [X] Hart Montgomery, Linux Foundation
+* [x] Ian Palmer, GCIB
+* [X] Iyán Méndez Veiga, HSLU / ETH Zurich
+* [X] Jane Ginn, Cyber Threat Intelligence Network
 * [] Jeyaganesh Narayanaswamy, AIB (Ireland)
 * [] Kyle Loree, Quantum Algorithms Institute
-* [] Marla Sumner
+* [X] Marla Sumner, UT Austin
 * [] Masab Iqbal, Multiverse Computing
+* [x] Mike Novak
 * [] Mukul Kulkarni, Technology Innovation Institute (Abu Dhabi)
-* [] Neha Gupta, University of Surrey
-* [] Salvatore Migliaccio, Namirial
+* [X] Neha Gupta, University of Surrey
+* [X] Salvatore Migliaccio, Namirial
 * [] Shubham Kumar, NgKore
-* [] Sogo Pierre Sanon, Hydro Quebec Research Institute
+* [X] Sogo Pierre Sanon, Hydro Quebec Research Institute
 * [] Thomas Pöppelmann, Google
 
 ---
@@ -68,6 +70,8 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 
 Have new attendees provide a quick intro (name, company / org, why they are interested in the Tracking WG)
 
+* Ian and Mike introduced themselves.
+
 ---
 
 ### **Establishing Norms**
@@ -75,24 +79,31 @@ Have new attendees provide a quick intro (name, company / org, why they are inte
 How do we want this WG to work?:
 
   - Mea culpa, I (Andy Warner) in my eagerness to get some contributions going I was not very rigorous reviewing some of the PRs that were contributed. Going forward, I think we should batch commits and only submit them during WG meetings. Reviews prior to meetings are strongly encouraged, but we will only commit non-adminsitrative / non-trivial changes in WG sessions.
+    - **There was general consensus to proceed in this manner.**
   - How should we organize the information?
     - Areas to cover?
-      - Proposed: Cryptography Libraries / Tools, Cloud Services, HSMs, Networking Devices, Operating Systems, Software
+      - Proposed: Cryptography Libraries / Tools, Cloud Services, HSMs, Networking Devices, Operating Systems, Software **
+        - **It was reiterated and agreed that we could focus on Cryptography Libraries and Tool, with an inclusive definition that would initially include various types of tokens and cryptographic primatives. There was consensus to use a second table on the cryptography.md page to seperate common libraries from everything else. We will not refuse or delay contributions in other areas, but the WG will continue to focus on core cryptography.**
     - Topic / file naming
-    -   Proposed: Use reasonably generic signle words with names lower-cased. (e.g. cryptography.md. cloud.md, hsm.md, networking.md, os.md, software.md) 
+    -   Proposed: Use reasonably generic signle words with names lower-cased. (e.g. cryptography.md. cloud.md, hsm.md, networking.md, os.md, software.md)
+      -  **Not covered.**  
     - Do we want the same table format for all areas or should they be customized per tracked area?
+      - **Consensus that we would have a standard for the leftmost columns in all tables, but different areas may add columns to the right if they are useful to better cover a particular area.**
   - Code commit rules
-    - Proposed: Initially allow commits with a single approval by a second WG participant, but plan to move to requiring two approvals from reviewers representing different companies / orgs. at the start of Q3 2026. 
+    - Proposed: Initially allow commits with a single approval by a second WG participant, but plan to move to requiring two approvals from reviewers representing different companies / orgs. at the start of Q3 2026.
+      -  **General consensus to proceed in this manner.**
   - Individual entry requirements
     - Proposed: Keep the format as simple as possible. Only allow links to technical sources, not press releases or marketing materials.   
   - Who is interested in being added as a reviewer/committer?
+    -  **Aditya and Marla volunteered.**
 
 ---
 
 ### **Review of open Issues and PRs**
 
   - [Open Issues](https://github.com/PQCA/wg-readiness-tracking/issues)
-  - [Open PRs](https://github.com/PQCA/wg-readiness-tracking/pulls) 
+  - [Open PRs](https://github.com/PQCA/wg-readiness-tracking/pulls)
+  - **All open items were reviewed.** 
 
 ---
 
@@ -101,7 +112,11 @@ How do we want this WG to work?:
 | Action Item | Owner | Status / Due Date |
 |--------------|--------|------------------|
 | Add contributions via PRs | All interested parties | Ongoing | 
+| Review PRs | All interested parties | Ongoing | 
+| Commit PRs we agreed on in the 2026-06-04 meeting | Andy Warner | 2026-06-04 |
+| Send a reminder ~48 hours before future meetings | Andy Warner | 2026-06-04 |
+| Send a PR to add Aditya and Marla | Andy Warner | 2026-06-04 |
 
 ---
 
-**Adjourned:** ?:?? am PT.
+**Adjourned:** 09:29 am PT.
