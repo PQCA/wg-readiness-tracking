@@ -23,3 +23,8 @@ approving information using the [Cryptographic Library tracker](cryptography.md)
 
 * [Cryptographic Libraries](cryptography.md) - Tracking PQC readiness for cryptography libraries and tools
 * [Web Browsers](web-browsers.md) - Tracking PQC support in major web browsers
+
+## AI Use Guidelines
+
+It is acceptable to use AI tools to help gather information, but contributors must self-review their changes before opening a PR.
+Contributors are also encouraged to disclose any AI tools used, to help maintain transparency.
