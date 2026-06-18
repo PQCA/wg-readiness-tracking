@@ -6,7 +6,7 @@ These trackers are a crowdsourced effort; please contribute by updating the stat
 
 ## Common Cryptography Libraries
 
-*** Seed data for working out formatting and collected details. This is not complete or fully vetted. ***
+***Seed data for working out formatting and collected details. This is not complete or fully vetted.***
 
 | Package Name | Version| Status | Language | Supported Algorithms | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -23,6 +23,7 @@ These trackers are a crowdsourced effort; please contribute by updating the stat
 | JDK (JCA) | >=24 | 🟢 Ready | Java | ML-KEM | ML-KEM via [JEP 496](https://openjdk.org/jeps/496), ML-DSA via [JEP 497](https://openjdk.org/jeps/497) |
 | JDK (TLS 1.3) | [>=27](https://openjdk.org/projects/jdk/27/) | 🟡 In Progress | Java | ML-KEM (hybrid ECDHE) | TLS 1.3 hybrid key exchange via [JEP 527](https://openjdk.org/jeps/527). Targeted for JDK 27 release. |
 | IDEMIA Sphere Cryptographic Library | 1.0.0 | 🟢 Ready | C, Python, Java | ML-KEM, ML-DSA, LMS, SLH-DSA | FIPS CAVP certified https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/details?product=19694 |
+| libcrux | [>=0.0.3](https://crates.io/crates/libcrux/0.0.3) | 🟢 Ready | Rust | ML-KEM, ML-DSA | main libcrux crate support from 0.0.3, subcrates: libcrux-ml-kem  [>=0.0.2](https://crates.io/crates/libcrux-ml-kem/0.0.2) & [>=0.0.4](https://crates.io/crates/libcrux-ml-dsa/0.0.4) |
 | libsodium	| N/A |	🔴 Not Supported | C | None | Historically focused on well-established classical primitives and has not yet integrated native PQC algorithms into the core library |
 | mbedTLS | - | 🔴 Not Started | C | None | No support, yet. Crypto API [Extension PQC 1.4](https://arm-software.github.io/psa-api/crypto/1.4/ext-pqc/) available.|
 | noble cryptography | [0.6.1](https://github.com/paulmillr/noble-post-quantum/releases/tag/0.6.1) | 🟢 Ready | TypeScript / JS  | ML-KEM, ML-DSA, SLH-DSA, HSS/LMS, Falcon (Round 3) |  Support for hybids (Concrete, XWing, KitchenSink)|
