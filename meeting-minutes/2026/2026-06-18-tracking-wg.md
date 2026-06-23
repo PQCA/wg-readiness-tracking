@@ -5,7 +5,7 @@ grand_parent: Meeting Minutes
 ---
 
 # Post-Quantum Cryptography Alliance - Readiness Tracking Working Group Meeting 18 June, 2026
-[**View Recording**]<pending>
+[**View Recording**](https://zoom.us/rec/share/7FhIAbCXEWis8_rQZfa_LT5pF7UV7cDYyf180JR6hMxddNNim7v7W5Ph4ue9BCQ_.yPJIBkY0sf3gVpg2)
 *Recordings are also available on your [Open Profile](https://openprofile.dev/my-meetings) page under Past Meetings*  
 [**Join the meeting**](https://zoom-lfx.platform.linuxfoundation.org/meeting/92180236021?password%3Db0389cf7-46b4-4b12-8960-743736597cff&sa=D&source=calendar&ust=1779060340269221&usg=AOvVaw0xXXgXsS7I24ZkWvbZYInS)  
 [**PQCA Meeting Calendar**](https://pqca.org/calendar/)  
@@ -26,30 +26,30 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 ---
 
 ## Attendance (_Alphabetical by 1st name_)
-* [] Aditya Koranga, NgKore \[TAC Chair\]
-* [] Aleksei Odinokov, PQC Ready
-* [] Andy Warner, Google \[Tracking WG Chair\]
+* [x] Aditya Koranga, NgKore \[TAC Chair\]
+* [x] Aleksei Odinokov, PQC Ready
+* [x] Andy Warner, Google \[Tracking WG Chair\]
 * [] Avinash Nagadi
 * [] Basil Hess, IBM
 * [] Bill Turner, PKI Consortium
 * [] Christian Pfister, LGT Bank
 * [] Daniel Speciale, QInsight
 * [] Guncha Malik, IBM
-* [] Hart Montgomery, Linux Foundation
-* [] Ian Palmer, GCIB
+* [x] Hart Montgomery, Linux Foundation
+* [x] Ian Palmer, GCIB
 * [] Iyán Méndez Veiga, HSLU / ETH Zurich
-* [] Jane Ginn, Cyber Threat Intelligence Network
+* [x] Jane Ginn, Cyber Threat Intelligence Network
 * [] Jeyaganesh Narayanaswamy, AIB (Ireland)
 * [] Kyle Loree, Quantum Algorithms Institute
-* [] Marla Sumner, UT Austin
+* [x] Marla Sumner, UT Austin
 * [] Masab Iqbal, Multiverse Computing
-* [] Mike Novak
+* [x] Mike Novak
 * [] Mukul Kulkarni, Technology Innovation Institute (Abu Dhabi)
 * [] Neha Gupta, University of Surrey
 * [] Salvatore Migliaccio, Namirial
 * [] Shubham Kumar, NgKore
-* [] Sogo Pierre Sanon, Hydro Quebec Research Institute
-* [] Thomas Pöppelmann, Google
+* [x] Sogo Pierre Sanon, Hydro Quebec Research Institute
+* [x] Thomas Pöppelmann, Google
 
 ---
 # Meeting Agenda
