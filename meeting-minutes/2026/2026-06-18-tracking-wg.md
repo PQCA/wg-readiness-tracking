@@ -77,7 +77,9 @@ Have new attendees provide a quick intro (name, company / org, why they are inte
 ### **Administrative**
 
   - Do we feel ready to shift to two person reviews or should we push that change out to August?
+    - There was agreement to wait until August and re-evaluate 
   - Are there any vounteers to review the working group charter?
+    - Aditya and Alecksi volunteered 
 
 ---
 
@@ -85,7 +87,19 @@ Have new attendees provide a quick intro (name, company / org, why they are inte
 
   - [Open Issues](https://github.com/PQCA/wg-readiness-tracking/issues)
   - [Open PRs](https://github.com/PQCA/wg-readiness-tracking/pulls)
-  - **<pending - ? were reviewed.>** 
+  - **<pending - ? were reviewed.>**
+
+### **Open discussion**
+
+  - Andy proposed reviewing HSM readiness at the next working group meeting
+  - Aditya suggested that we standardize on "Not supported" and stop using "Not started"
+    - There was agremeent to adopt this standard and Aditya volunteered to send a PR
+  - Aditya raised the question of how we best reflect state when key encapsulation and signing are in different readiness states
+    - We agreed on having seperate entries for each when they differ and merging them after both have been supported for a year with notes explaining when each one was ready. 
+  - It was suggested that Network Devices and Semiconductors (including BIOS and TPMs) would be good next areas to explore
+    - For network devices it will probably make sense to carve them up by vendor given the volume of devices
+  -  There was brief discussion of whether tracking data sets and test tools made sense
+    - There was agreement it may make sense in the future and such contributions would be accepted, but it is not an early priority for the WG. 
 
 ---
 
