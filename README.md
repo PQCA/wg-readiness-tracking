@@ -22,6 +22,7 @@ approving information using the [Cryptographic Library tracker](cryptography.md)
 ## Trackers
 
 * [Cryptographic Libraries](cryptography.md) - Tracking PQC readiness for cryptography libraries and tools
+* [HSMs](hsms.md) - Hardware Security Modules
 * [Web Browsers](web-browsers.md) - Tracking PQC support in major web browsers
 
 ## AI Use Guidelines
