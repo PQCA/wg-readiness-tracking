@@ -76,7 +76,7 @@ Have new attendees provide a quick intro (name, company / org, why they are inte
 
 ### **Administrative**
 
-  - The working group charter was shared with Aditya and Alecksi
+  - The working group charter will be shared today with Aditya and Aleksei
 
 ---
 
