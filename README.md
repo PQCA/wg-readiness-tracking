@@ -24,6 +24,11 @@ approving information using the [Cryptographic Library tracker](cryptography.md)
 * [Cryptographic Libraries](cryptography.md) - Tracking PQC readiness for cryptography libraries and tools
 * [Web Browsers](web-browsers.md) - Tracking PQC support in major web browsers
 
+## Other Data Sources
+
+* [Cloudflare PQC Tracker] (https://developers.cloudflare.com/ssl/post-quantum-cryptography/pqc-support/)
+* [PKI Consortium Tracker](https://pkic.org/wg/pqc/pqccm/) - Outdated, but potentially useful
+
 ## AI Use Guidelines
 
 It is acceptable to use AI tools to help gather information, but contributors must self-review their changes before opening a PR.
