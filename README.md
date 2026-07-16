@@ -26,7 +26,7 @@ approving information using the [Cryptographic Library tracker](cryptography.md)
 
 ## Other Data Sources
 
-* [Cloudflare PQC Tracker] (https://developers.cloudflare.com/ssl/post-quantum-cryptography/pqc-support/)
+* [Cloudflare PQC Tracker](https://developers.cloudflare.com/ssl/post-quantum-cryptography/pqc-support/)
 * [PKI Consortium Tracker](https://pkic.org/wg/pqc/pqccm/) - Outdated, but potentially useful
 
 ## AI Use Guidelines
