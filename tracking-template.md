@@ -8,10 +8,10 @@ These pages track the state of Post-Quantum Cryptography (PQC) readiness for com
 
 | Library Name | Version | Status | Supported Algorithms | Notes / Trackers |
 | :--- | :--- | :--- | :--- | :--- |
-| [Example Library] | 1.0 | 🔴 Not Started | ML-KEM, ML-DSA, ... | Link to issue/PR |
+| [Example Library] | 1.0 | 🔴 Not Supported | ML-KEM, ML-DSA, ... | Link to issue/PR |
 | | | | | |
 
-Status:  🟢 Ready / 🟡 In Progress / 🔴 Not Started
+Status:  🟢 Ready / 🟡 In Progress / 🔴 Not Supported
 
 * N.B. if you are forking this page for a new use case, update the heading before the table and first column name in the table to reflect the use case.
 
