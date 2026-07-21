@@ -5,7 +5,7 @@ grand_parent: Meeting Minutes
 ---
 
 # Post-Quantum Cryptography Alliance - Readiness Tracking Working Group Meeting 18 June, 2026
-[**View Recording**]<pending>
+[**View Recording**](https://zoom.us/rec/share/--mLlXBkI444SuhhNDqEIe0X07O9MFV_-Dl5z0R1VxMAnEjtp-lOuZunyxeNIyfU.8eUauTcz-nyWKTPT)
 *Recordings are also available on your [Open Profile](https://openprofile.dev/my-meetings) page under Past Meetings*  
 [**Join the meeting**](https://zoom-lfx.platform.linuxfoundation.org/meeting/92180236021?password%3Db0389cf7-46b4-4b12-8960-743736597cff&sa=D&source=calendar&ust=1779060340269221&usg=AOvVaw0xXXgXsS7I24ZkWvbZYInS)  
 [**PQCA Meeting Calendar**](https://pqca.org/calendar/)  
