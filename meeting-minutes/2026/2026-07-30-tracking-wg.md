@@ -27,7 +27,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 
 ## Attendance (_Alphabetical by 1st name_)
 * [] Aditya Koranga, NgKore \[TAC Chair\]
-* [] Aleksei Odinokov, PQC Ready
+* [] Alexey Odinokov, PQC Ready
 * [] Andy Warner, Google \[Tracking WG Chair\]
 * [] Avinash Nagadi
 * [] Basil Hess, IBM
