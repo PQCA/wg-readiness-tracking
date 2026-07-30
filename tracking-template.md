@@ -23,7 +23,7 @@ Status:  🟢 Ready / 🟡 In Progress / 🔴 Not Started
 ### Status Definitions
 - 🟢 **Ready**: at least 1 NIST-standardized key exchange algorithm (e.g. ML-KEM) AND at least 1 NIST-standardized signature algorithm (e.g. ML-DSA) are supported.
 - 🟡 **In Progress**: only one of the two (key exchange OR signature) is supported, or support is in development/unreleased.
-- 🔴 **Not Started**: neither is supported.
+- 🔴 **Not Supported**: neither is supported.
 
 ## How to Contribute
 1. Fork this repo.
