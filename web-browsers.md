@@ -15,7 +15,7 @@ These trackers are a crowdsourced effort; please contribute by updating the stat
 | Mozilla Firefox | N/A | 🔴 Not Supported | Windows, macOS, Linux, Android, iOS | None | Firefox does not yet have native PQC support in TLS. Uses NSS for cryptography which lacks PQC implementation. Tracking in https://bugzilla.mozilla.org/show_bug.cgi?id=1857217 |
 | Apple Safari | N/A | 🔴 Not Supported | macOS, iOS, iPadOS | None | Safari does not yet have announced PQC support in TLS. Apple has not publicly disclosed PQC implementation timeline. |
 
-Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Started
+Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Supported
 
 ## How to Contribute
 1. Fork this repo.
