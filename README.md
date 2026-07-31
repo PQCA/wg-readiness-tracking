@@ -29,6 +29,16 @@ approving information using the [Cryptographic Library tracker](cryptography.md)
 * [Cloudflare PQC Tracker](https://developers.cloudflare.com/ssl/post-quantum-cryptography/pqc-support/)
 * [PKI Consortium Tracker](https://pkic.org/wg/pqc/pqccm/) - Outdated, but potentially useful
 
+## General Guidance
+
+1. Focus first on Harvest Now Decrypt Later (HNDL) / Store Now Decrypt Later (SNDL) first by protecting key exchanges.
+2. As Post-quantum secure key encapsulation is deployed, start working on signature algorithm updates. 
+3. Lead with discovery and inventory. Without basic cryptographic hygiene, you cannot make fully informed decisions about where to focus.
+4. As your inventory improves work on cryptographic agility. To the extent possible use libraries like [Tink](https://developers.google.com/tink) that support multiple keysets and can substantially de-risk and ease transitions.
+6. For use cases that rely on TLS for transport security and signing, if you cannot move to TLS 1.3 with downgrade protections, you do not have a reliable path to PQC. If you rely on the WebPKI for public trust (use public CAs), plan to move to [Merkle Tree Certificates](https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/). For private PKIs, plan to move to ML-DSA signatures in X.509.
+
+CISA offers a good general [PQC risk management framework](https://www.cisa.gov/topics/risk-management/quantum)
+
 ## AI Use Guidelines
 
 It is acceptable to use AI tools to help gather information, but contributors must self-review their changes before opening a PR.
