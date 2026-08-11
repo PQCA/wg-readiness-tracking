@@ -20,6 +20,11 @@ Status:  🟢 Ready / 🟡 In Progress / 🔴 Not Supported
 - **Algorithm Support**: Does it support NIST-standardized PQC algorithms?
 - **Agility**: Can the package switch between classical, hybrid, and PQC-only modes?
 
+### Status Definitions
+- 🟢 **Ready**: at least 1 NIST-standardized key exchange algorithm (e.g. ML-KEM) AND at least 1 NIST-standardized signature algorithm (e.g. ML-DSA) are supported.
+- 🟡 **In Progress**: only one of the two (key exchange OR signature) is supported, or support is in development/unreleased.
+- 🔴 **Not Supported**: neither is supported.
+
 ## How to Contribute
 1. Fork this repo.
 2. Update the table above with new information or edits.

@@ -48,6 +48,11 @@ These trackers are a crowdsourced effort; please contribute by updating the stat
 
 Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Supported
 
+### Status Definitions
+- 🟢 **Ready**: at least 1 NIST-standardized key exchange algorithm (e.g. ML-KEM) AND at least 1 NIST-standardized signature algorithm (e.g. ML-DSA) are supported.
+- 🟡 **In Progress**: only one of the two (key exchange OR signature) is supported, or support is in development/unreleased.
+- 🔴 **Not Supported**: neither is supported.
+
 ## How to Contribute
 
 1. Fork this repo.
