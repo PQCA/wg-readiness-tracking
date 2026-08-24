@@ -19,14 +19,14 @@ as of PTP 1.07. TCG has defined two transition designations:
 
 ## TPM Status Registry
 
-| TPM Model | Version | Status | TCG Designation | Supported PQC Algorithms | Notes / Trackers |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| [Example TPM] | 1.0 | 🔴 Not Supported | N/A | None | Link to issue/PR |
-| Microchip ATTPM20P | TCG FW rev116 | 🔴 Not Supported | ? | None | TPM 2.0 discrete module. No PQC support indicated. Verify active product status. |
-| Infineon OPTIGA TPM SLB 9672 | FW 15.xx | 🔴 Not Supported | ? | None | PQC-protected firmware update mechanism using XMSS signatures. This protects the firmware update channel only — no PQC algorithm support for application cryptographic operations. Awaiting PTP 1.07 compliant firmware. |
-| Nuvoton NPCT | ? | 🔴 Not Supported | ? | ? | Not Supported since PTP 1.07 just dropped today and no shipping firmware supports it yet |
-| SEALSQ QVault TPM | ? | 🔴 Not Supported | ? | ML-DSA, ML-KEM | Samples available. Technical documentation needed to confirm algorithm details and version. |
-| STMicroelectronics ST33 | ? | 🔴 Not Supported | ? | ? | Not Supported since PTP 1.07 just dropped today and no shipping firmware supports it yet |
+| TPM Model | Version | Status | Supported PQC Algorithms | Notes / Trackers |
+| :--- | :--- | :--- | :--- | :--- |
+| [Example TPM] | 1.0 | 🔴 Not Supported |  None | Link to issue/PR |
+| Microchip ATTPM20P | TCG FW rev116 | 🔴 Not Supported |  None | TPM 2.0 discrete module. No PQC support indicated. Verify active product status. |
+| Infineon OPTIGA 9672/9673 | FW 15.xx | 🔴 Not Supported  None | PQC-protected firmware update mechanism using XMSS signatures. This protects the firmware update channel only — no PQC algorithm support for application cryptographic operations. Awaiting PTP 1.07 compliant firmware. |
+| Nuvoton NPCT7xx | ? | 🔴 Not Supported | None | No PQC support in current firmware. Awaiting PTP 1.07 compliant firmware.|
+| SEALSQ QVault TPM | ? | 🟡 In Progress | ML-DSA, ML-KEM | Samples available. Technical documentation needed to confirm algorithm details and version. |
+| STMicroelectronics ST33 | ? | 🔴 Not Supported |  None | No PQC support in current firmware. Awaiting PTP 1.07 compliant firmware. |
 
 
 Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Supported
