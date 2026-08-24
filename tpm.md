@@ -1,8 +1,5 @@
 # PQC Readiness Tracker: Trusted Platform Modules (TPMs)
 
-**The Working Group has not settled on the final format, this version 
-is an early draft intended to solicit input.**
-
 These pages track the state of Post-Quantum Cryptography (PQC) readiness 
 for Trusted Platform Modules (TPMs). This is a crowdsourced effort; please 
 contribute by adding details about items you maintain or have reliable 
@@ -23,6 +20,12 @@ as of PTP 1.07. TCG has defined two transition designations:
 | TPM Model | Version | Status | TCG Designation | Supported PQC Algorithms | Notes / Trackers |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [Example TPM] | 1.0 | 🔴 Not Supported | N/A | None | Link to issue/PR |
+| Infineon OPTIGA TPM SLB 9672 | FW 15.xx | 🔴 Not Supported | ? | None | PQC-protected firmware update mechanism using XMSS signatures. This protects the firmware update channel only — no PQC algorithm support for application cryptographic operations. Awaiting PTP 1.07 compliant firmware. |
+| Infineon OPTIGA TPM SLB 9745 | ? | 🔴 Not Supported | ? | ? | |
+| Nuvoton NPCT | ? | ? | ? | ? | |
+| SEALSQ QVault TPM | ? | 🟡 In Progress | ? | ML-DSA, ML-KEM | Samples available. Technical documentation needed to confirm algorithm details and version. |
+| STMicroelectronics ST33 | ? | ? | ? | ? | |
+
 
 Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Supported
 
