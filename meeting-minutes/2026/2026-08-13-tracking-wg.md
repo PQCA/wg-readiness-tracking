@@ -5,7 +5,7 @@ grand_parent: Meeting Minutes
 ---
 
 # Post-Quantum Cryptography Alliance - Readiness Tracking Working Group Meeting 13 August, 2026
-[**View Recording**]<pending>
+[**View Recording**](https://zoom.us/rec/share/Ddtc9cqKjPluzd3uaAZX-dqFPZphMqVafI0WSfJnuAClFtFD8vql1JMtx2VcbYYH.sT0hO6Mp3JBkk3p-)
 *Recordings are also available on your [Open Profile](https://openprofile.dev/my-meetings) page under Past Meetings*  
 [**Join the meeting**](https://zoom-lfx.platform.linuxfoundation.org/meeting/92180236021?password%3Db0389cf7-46b4-4b12-8960-743736597cff&sa=D&source=calendar&ust=1779060340269221&usg=AOvVaw0xXXgXsS7I24ZkWvbZYInS)  
 [**PQCA Meeting Calendar**](https://pqca.org/calendar/)  
@@ -28,28 +28,29 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 ## Attendance (_Alphabetical by 1st name_)
 * [] Aditya Koranga, NgKore \[TAC Chair\]
 * [] Alexey Odinokov, PQC Ready
-* [] Andy Warner, Google \[Tracking WG Chair\]
+* [X] Andy Warner, Google \[Tracking WG Chair\]
 * [] Avinash Nagadi
 * [] Basil Hess, IBM
 * [] Bill Turner, PKI Consortium
 * [] Christian Pfister, LGT Bank
 * [] Daniel Speciale, QInsight
-* [] Ganesh Mallya, AppViewX
+* [X] Ganesh Mallya, AppViewX
 * [] Guncha Malik, IBM
-* [] Hart Montgomery, Linux Foundation
+* [X] Hart Montgomery, Linux Foundation
 * [] Ian Palmer, GCIB
 * [] Iyán Méndez Veiga, HSLU / ETH Zurich
 * [] Jane Ginn, Cyber Threat Intelligence Network
 * [] Jeyaganesh Narayanaswamy, AIB (Ireland)
+* [X] Leila
 * [] Kyle Loree, Quantum Algorithms Institute
 * [] Marla Sumner, UT Austin
 * [] Masab Iqbal, Multiverse Computing
 * [] Michael Howard, Microsoft
 * [] Mike Novak
-* [] Mukul Kulkarni, Technology Innovation Institute (Abu Dhabi)
+* [X] Mukul Kulkarni, Technology Innovation Institute (Abu Dhabi)
 * [] Neha Gupta, University of Surrey
 * [] Salvatore Migliaccio, Namirial
-* [] Shubham Kumar, NgKore
+* [X] Shubham Kumar, NgKore
 * [] Sogo Pierre Sanon, Hydro Quebec Research Institute
 * [] Thomas Pöppelmann, Google
 * [] Tushar Shring, Volkswagen
@@ -59,7 +60,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 
 - **Overview of the WG**
 
- - **Goal**: Provide a reliable source of information about the Post-Quantum Cryptography readiness of common devices, libraies, operating systems and software via a community driven effort welcoming submission and updates from any interested party. To succeed, active community participation is needed. 
+ - **Goal**: Provide a reliable source of information about the Post-Quantum Cryptography readiness of common devices, libraries, operating systems and software via a community driven effort welcoming submission and updates from any interested party. To succeed, active community participation is needed. 
  - Approved by the TAC: https://github.com/PQCA/TAC/issues/139
  - Mailing List: https://lists.pqca.org/g/wg-readiness-tracking
  - GitHub Repository: https://github.com/PQCA/wg-readiness-tracking
