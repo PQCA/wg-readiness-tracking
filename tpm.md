@@ -26,7 +26,7 @@ as of PTP 1.07. TCG has defined two transition designations:
 | Microchip ATTPM20P | TCG FW rev116 | 🔴 Not Supported | PC Client (PTP 1.3) | None | No PQC support identified. |
 | Nuvoton NPCT7xx | v1.16/1.38 | 🔴 Not Supported | PC Client (PTP 1.03) | None | No PQC support identified. |
 | SEALSQ QVault TPM 183 | TPR1003B (Preliminary) | 🔴 Not Supported | PC Client (PTP 1.06) | None | ML-DSA used for firmware update signing only, not available for application TPM operations. Per [QVault TPM 183 Technical Datasheet](https://www.sealsq.com/hubfs/TPR1003B_10Aug26.pdf?hsLang=en). |
-| SEALSQ QVault TPM 185 | TPR1026A (Preliminary) | 🟢 Ready | PC Client (PTP 1.07) | ML-KEM/ML-DSA | ML-KEM and ML-DSA mandatory per [QVault TPM 185 Technical Datasheet](https://www.sealsq.com/hubfs/Data%20Sheets/QVaultTPM_185_Datasheet.pdf). FIPS 140-3 and TCG certification processes underway. Preliminary datasheet. |
+| SEALSQ QVault TPM 185 | TPR1026A (Preliminary) | 🟡 In Progress | PC Client (PTP 1.07) | ML-KEM/ML-DSA | ML-KEM and ML-DSA mandatory per [QVault TPM 185 Technical Datasheet](https://www.sealsq.com/hubfs/Data%20Sheets/QVaultTPM_185_Datasheet.pdf). FIPS 140-3 and TCG certification processes underway. Preliminary datasheet. |
 | STMicroelectronics ST33KTPM2X | v1.59 errata 1.5 | 🔴 Not Supported | PC Client (PTP 1.06) | None | Firmware update signed with LMS (SP800-208) per downloadable databrief but no PQC algorithm support for application cryptographic operations. |
 
 Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Supported
