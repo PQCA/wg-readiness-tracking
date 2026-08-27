@@ -47,7 +47,6 @@ approving information using the [Cryptographic Library tracker](cryptography.md)
 
 CISA offers a good general [PQC risk management framework](https://www.cisa.gov/topics/risk-management/quantum)
 
-
 ## AI Use Guidelines
 
 It is acceptable to use AI tools to help gather information, but contributors must self-review their changes before opening a PR.
