@@ -15,7 +15,12 @@ These trackers are a crowdsourced effort; please contribute by updating the stat
 | Mozilla Firefox | N/A | 🔴 Not Supported | Windows, macOS, Linux, Android, iOS | None | Firefox does not yet have native PQC support in TLS. Uses NSS for cryptography which lacks PQC implementation. Tracking in https://bugzilla.mozilla.org/show_bug.cgi?id=1857217 |
 | Apple Safari | N/A | 🔴 Not Supported | macOS, iOS, iPadOS | None | Safari does not yet have announced PQC support in TLS. Apple has not publicly disclosed PQC implementation timeline. |
 
-Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Started
+Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Supported
+
+### Status Definitions
+- 🟢 **Ready**: at least 1 NIST-standardized key exchange algorithm (e.g. ML-KEM) AND at least 1 NIST-standardized signature algorithm (e.g. ML-DSA) are supported.
+- 🟡 **In Progress**: only one of the two (key exchange OR signature) is supported, or support is in development/unreleased.
+- 🔴 **Not Supported**: neither is supported.
 
 ## How to Contribute
 1. Fork this repo.

@@ -22,6 +22,7 @@ approving information using the [Cryptographic Library tracker](cryptography.md)
 ## Trackers
 
 * [Cryptographic Libraries](cryptography.md) - Tracking PQC readiness for cryptography libraries and tools
+* [HSMs](hsm.md) - Hardware Security Modules
 * [Web Browsers](web-browsers.md) - Tracking PQC support in major web browsers
 
 ## Other Data Sources
@@ -34,40 +35,18 @@ approving information using the [Cryptographic Library tracker](cryptography.md)
  
 ### Vendor PQC Sites
 
-* [Akamai](https://www.akamai.com/blog/security/post-quantum-cryptography-implementation-considerations-tls)
-* [Amazon](https://aws.amazon.com/security/post-quantum-cryptography/)
-* [AMD](https://www.amd.com/en/search/site-search.html#q=pqc)
-* [Apple](https://support.apple.com/guide/security/quantum-secure-cryptography-apple-devices-secc7c82e533/web)
-* [arm](https://newsroom.arm.com/blog/cybersecurity-silicon)
-* [Broadcom - VMWare](https://blogs.vmware.com/cloud-foundation/2026/04/28/post-quantum-readiness-on-vcf/)
-* [CableLabs](https://www.cablelabs.com/blog/practical-considerations-for-post-quantum-cryptography-deployment)
-* [Cisco](https://www.cisco.com/site/us/en/about/trust-center/post-quantum-cryptography.html)
-* [Cloudflare](https://www.cloudflare.com/pqc/)
-* [Dell](https://www.dell.com/en-us/blog/quantum-resilience-built-in/)
-* [Digicert](https://www.digicert.com/blog/category/post-quantum-cryptography)
-* [F5](https://www.f5.com/labs/articles/the-state-of-pqc-on-the-web)
-* [Fortinet](https://www.fortinet.com/resources/hubs/quantum-security)
-* [Google](https://cloud.google.com/security/resources/post-quantum-cryptography)
-* [HPE](https://www.hpe.com/psnow/doc/a50015180enw)
-* [IBM](https://www.ibm.com/quantum/quantum-safe)
-* [Intel](https://www.intel.com/content/www/us/en/search.html#q=pqc)
-* [Juniper](https://apps.juniper.net/feature-explorer/feature/9154?fn=Post-Quantum%20Cryptography)
-* [KeyFactor](https://docs.keyfactor.com/solution-areas/latest/pqc)
-* [Let's Encrypt](https://letsencrypt.org/2026/06/03/pq-certs)
-* [LG](https://lgshield.lge.com/en/why-lg-shield/solutions/8406CA6F-4513-45F1-A355-577BF5E140CB)
-* [Microchip](https://www.microchip.com/en-us/solutions/technologies/embedded-security/post-quantum-cryptography)
-* [Microsoft](https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/)
-* [Mirantis](https://www.mirantis.com/blog/post-quantum-cryptography-in-mirantis-container-runtime/)
-* [Nokia](https://www.nokia.com/industries/quantum-safe-networks/)
-* [NVIDIA](https://developer.nvidia.com/cupqc)
-* [Open Titan](https://opentitan.org/book/doc/security/)
-* [Palo Alto Networks](https://docs.paloaltonetworks.com/network-security/quantum-security/administration/quantum-security-concepts/support-for-quantum-features)
-* [Samsung](https://news.samsung.com/global/tag/post-quantum-cryptography)
-* [Sectigo](https://www.sectigo.com/quantum-labs)
-* [ST](https://www.st.com/content/st_com/en/about/innovation-and-technology/post-quantum-cryptography.html)
-* [Ubiquiti](https://community.ui.com/questions/Post-Quantum-Encryption-Roadmap/a6ecf818-12c5-43b7-9939-bfddadfce7ef)
-* [Yubico](https://www.yubico.com/blog/future-proofing-authentication-a-look-at-the-future-of-post-quantum-cryptography/)
-* [Zscaler](https://www.zscaler.com/blogs/product-insights/preparing-to-meet-challenges-post-quantum-cryptography-pqc-era)
+* [Per Vendor Details](vendors.md)
+
+## General Guidance
+
+1. Focus first on Harvest Now Decrypt Later (HNDL) / Store Now Decrypt Later (SNDL) first by protecting key exchanges.
+2. As Post-quantum secure key encapsulation is deployed, start working on signature algorithm updates. 
+3. Lead with discovery and inventory. Without basic cryptographic hygiene, you cannot make fully informed decisions about where to focus.
+4. As your inventory improves work on cryptographic agility. To the extent possible use libraries like [Tink](https://developers.google.com/tink) that support multiple keysets and can substantially de-risk and ease transitions.
+6. For use cases that rely on TLS for transport security and signing, if you cannot move to TLS 1.3 with downgrade protections, you do not have a reliable path to PQC. If you rely on the WebPKI for public trust (use public CAs), plan to move to [Merkle Tree Certificates](https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/). For private PKIs, plan to move to ML-DSA signatures in X.509.
+
+CISA offers a good general [PQC risk management framework](https://www.cisa.gov/topics/risk-management/quantum)
+
 
 ## AI Use Guidelines
 

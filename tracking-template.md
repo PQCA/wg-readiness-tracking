@@ -8,10 +8,10 @@ These pages track the state of Post-Quantum Cryptography (PQC) readiness for com
 
 | Library Name | Version | Status | Supported Algorithms | Notes / Trackers |
 | :--- | :--- | :--- | :--- | :--- |
-| [Example Library] | 1.0 | 🔴 Not Started | ML-KEM, ML-DSA, ... | Link to issue/PR |
+| [Example Library] | 1.0 | 🔴 Not Supported | ML-KEM, ML-DSA, ... | Link to issue/PR |
 | | | | | |
 
-Status:  🟢 Ready / 🟡 In Progress / 🔴 Not Started
+Status:  🟢 Ready / 🟡 In Progress / 🔴 Not Supported
 
 * N.B. if you are forking this page for a new use case, update the heading before the table and first column name in the table to reflect the use case.
 
@@ -19,6 +19,11 @@ Status:  🟢 Ready / 🟡 In Progress / 🔴 Not Started
 - **Inventory**: Does the package identify all non-PQC cryptographic dependencies?
 - **Algorithm Support**: Does it support NIST-standardized PQC algorithms?
 - **Agility**: Can the package switch between classical, hybrid, and PQC-only modes?
+
+### Status Definitions
+- 🟢 **Ready**: at least 1 NIST-standardized key exchange algorithm (e.g. ML-KEM) AND at least 1 NIST-standardized signature algorithm (e.g. ML-DSA) are supported.
+- 🟡 **In Progress**: only one of the two (key exchange OR signature) is supported, or support is in development/unreleased.
+- 🔴 **Not Supported**: neither is supported.
 
 ## How to Contribute
 1. Fork this repo.
