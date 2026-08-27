@@ -41,7 +41,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 * [] Iyán Méndez Veiga, HSLU / ETH Zurich
 * [] Jane Ginn, Cyber Threat Intelligence Network
 * [] Jeyaganesh Narayanaswamy, AIB (Ireland)
-* [X] Leila
+* [X] Leila Taghizadeh, Allianz
 * [] Kyle Loree, Quantum Algorithms Institute
 * [] Marla Sumner, UT Austin
 * [] Masab Iqbal, Multiverse Computing
