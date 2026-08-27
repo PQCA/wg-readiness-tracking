@@ -1,7 +1,5 @@
 # PQC Readiness Tracking - HSMs
 
-## Test Page, data has not been fully vetted
-
 These pages track the state of Post-Quantum Cryptography (PQC) readiness for common libraries, software and hardware. This is a crowdsourced effort; please contribute by adding details about items you maintain or have reliable knowledge of.
 
 ## Hardware Security Modules
