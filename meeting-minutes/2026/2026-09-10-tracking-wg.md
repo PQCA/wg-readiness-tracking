@@ -28,7 +28,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 ## Attendance (_Alphabetical by 1st name_)
 * [] Aditya Koranga, NgKore \[TAC Chair\]
 * [] Alexey Odinokov, PQC Ready
-* [] Andy Warner, Google \[Tracking WG Chair\]
+* [X] Andy Warner, Google \[Tracking WG Chair\]
 * [] Avinash Nagadi
 * [] Basil Hess, IBM
 * [] Bill Turner, PKI Consortium
@@ -36,19 +36,20 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 * [] Daniel Speciale, QInsight
 * [] Ganesh Mallya, AppViewX
 * [] Guncha Malik, IBM
-* [] Hart Montgomery, Linux Foundation
+* [X] Hart Montgomery, Linux Foundation
 * [] Ian Palmer, GCIB
 * [] Iyán Méndez Veiga, HSLU / ETH Zurich
 * [] Jane Ginn, Cyber Threat Intelligence Network
 * [] Jeyaganesh Narayanaswamy, AIB (Ireland)
 * [] Kyle Loree, Quantum Algorithms Institute
 * [] Manali Ahirrao
-* [] Marla Sumner, UT Austin
+* [X] Marla Sumner, UT Austin
 * [] Masab Iqbal, Multiverse Computing
 * [] Michael Howard, Microsoft
 * [] Mike Novak
 * [] Mukul Kulkarni, Technology Innovation Institute (Abu Dhabi)
 * [] Neha Gupta, University of Surrey
+* [X] Neil Ginns
 * [] Salvatore Migliaccio, Namirial
 * [] Shubham Kumar, NgKore
 * [] Sogo Pierre Sanon, Hydro Quebec Research Institute
@@ -74,7 +75,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 
 Have new attendees provide a quick intro (name, company / org, why they are interested in the Tracking WG)
 
-- Manali provided an intro.
+- Neil provided an intro.
   
 ---
 
@@ -91,6 +92,8 @@ Have new attendees provide a quick intro (name, company / org, why they are inte
   - [Open PRs](https://github.com/PQCA/wg-readiness-tracking/pulls)
     -  4 open PRs besides the notes doc.
 
+Three reviewed items were committed right after the meeting. The network page is the only open item we have at the moment.
+
 ### **Open discussion**
 
   - 
@@ -103,10 +106,10 @@ Have new attendees provide a quick intro (name, company / org, why they are inte
 |--------------|--------|------------------|
 | Add contributions via PRs | All interested parties | Ongoing | 
 | Review PRs | All interested parties | Ongoing | 
-| Commit PRs we agreed on in the 2026-08-27 meeting | Andy Warner | Done |
+| Commit PRs we agreed on in the 2026-09-10 meeting | Andy Warner | Done |
 | Send a reminder ~48 hours before future meetings | Andy Warner | Ongoing |
 | Review the WG Charter | Aditya & Aleksi | Pending |
 
 ---
 
-**Adjourned:** ?? am PT.
+**Adjourned:** 9:12 am PT.
