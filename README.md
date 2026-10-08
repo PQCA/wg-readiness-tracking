@@ -26,6 +26,7 @@ asymmetric cryptography.
 * [Cloudflare PQC Tracker](https://developers.cloudflare.com/ssl/post-quantum-cryptography/pqc-support/)
 * [PKI Consortium Tracker](https://pkic.org/wg/pqc/pqccm/) - Outdated, but potentially useful
 * [PQCToday Tracker](https://www.pqctoday.com/migrate?tab=vendorrisk)
+* [Smallstep tpm-cbom](https://smallstep.github.io/tpm-cbom/#/) - TPM census with per-model cryptographic details (algorithms, firmware update signing, certifications) published as CycloneDX CBOMs, with source citations for each value
  
 ### Vendor PQC Sites
 
