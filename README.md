@@ -14,10 +14,11 @@ asymmetric cryptography.
 ---
 ## Trackers
 
+* [Cloud Services](cloud-services.md)
 * [Cryptographic Libraries](cryptography.md) - Tracking PQC readiness for cryptography libraries and tools
 * [HSMs](hsm.md) - Hardware Security Modules
-* [Web Browsers](web-browsers.md) - Tracking PQC support in major web browsers
 * [TPMs](tpm.md) - Trusted Platform Modules
+* [Web Browsers](web-browsers.md) - Tracking PQC support in major web browsers
 
 ## Other Data Sources
 
