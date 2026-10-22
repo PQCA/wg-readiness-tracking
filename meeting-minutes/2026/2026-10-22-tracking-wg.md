@@ -28,15 +28,16 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 ## Attendance (_Alphabetical by 1st name_)
 * [] Aditya Koranga, NgKore \[TAC Chair\]
 * [] Alexey Odinokov, PQC Ready
-* [] Andy Warner, Google \[Tracking WG Chair\]
+* [X] Andy Warner, Google \[Tracking WG Chair\]
 * [] Avinash Nagadi
 * [] Basil Hess, IBM
 * [] Bill Turner, PKI Consortium
 * [] Christian Pfister, LGT Bank
 * [] Daniel Speciale, QInsight
+* [X] Eric Mwobobia
 * [] Ganesh Mallya, AppViewX
 * [] Guncha Malik, IBM
-* [] Hamid Heyhat, AG Swire
+* [X] Hamid Heyhat, AG Swire
 * [] Hart Montgomery, Linux Foundation
 * [] Ian Palmer, GCIB
 * [] Iyán Méndez Veiga, HSLU / ETH Zurich
@@ -45,7 +46,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 * [] Jeyaganesh Narayanaswamy, AIB (Ireland)
 * [] Kyle Loree, Quantum Algorithms Institute
 * [] Manali Ahirrao
-* [] Marla Sumner, UT Austin
+* [X] Marla Sumner, UT Austin
 * [] Masab Iqbal, Multiverse Computing
 * [] Michael Howard, Microsoft
 * [] Mike Novak
@@ -73,33 +74,13 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 
 ---
 
-# Discussion & Updates
+# Short Meeting
 
-### **Introductions**
-
-Have new attendees provide a quick intro (name, company / org, why they are interested in the Tracking WG)
-
-- <new member intros if any>
-  
----
-
-### **Administrative**
-
-  - None
-
----
-
-### **Review of open Issues and PRs**
-
-  - [Open Issues](https://github.com/PQCA/wg-readiness-tracking/issues)
-    - No 'new' issues.
-  - [Open PRs](https://github.com/PQCA/wg-readiness-tracking/pulls)
-    -  2 open PRs besides the notes doc.
-      -  Network readiness
-
-### **Open discussion**
-
-  - 
+  - Git Hub was returning consistent 500s, so it was a short meeting
+  - We will review PRs next time
+  - Andy is going to look into a simple option to mirror PRs so we have a fallback if needed
+  - Eric mentioned that the [Cloud Security Alliance - Quantum Safe Security WG](https://cloudsecurityalliance.org/research/working-groups/quantum-safe-security) is interested in options for tracking. Andy will reach out
+  - General discussion of how people can contribute
 
 ---
 
@@ -109,10 +90,12 @@ Have new attendees provide a quick intro (name, company / org, why they are inte
 |--------------|--------|------------------|
 | Add contributions via PRs | All interested parties | Ongoing | 
 | Review PRs | All interested parties | Ongoing | 
-| Commit PRs we agreed on in the 2026-10-08 meeting | Andy Warner |  |
+| Commit PRs we agreed on in the 2026-10-22 meeting | N/A - push to next meeting |  |
 | Send a reminder ~48 hours before future meetings | Andy Warner | Ongoing |
 | Review the WG Charter | Aditya & Aleksi | Pending |
+| Research mirroring options | Andy | by next meeting |
+| Reach out to the CSA quantum WG | Andy | by next meeting |
 
 ---
 
-**Adjourned:**  09:25 am PT.
+**Adjourned:**  09:12 am PT.
