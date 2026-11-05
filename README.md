@@ -18,6 +18,7 @@ asymmetric cryptography.
 * [HSMs](hsm.md) - Hardware Security Modules
 * [Web Browsers](web-browsers.md) - Tracking PQC support in major web browsers
 * [TPMs](tpm.md) - Trusted Platform Modules
+* [Industrial OT and CPS](industrial-ot-cps.md) - Tracking PQC readiness for industrial operational technology and cyber-physical systems
 
 ## Other Data Sources
 
