@@ -29,6 +29,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 * [] Aditya Koranga, NgKore \[TAC Chair\]
 * [] Alexey Odinokov, PQC Ready
 * [] Andy Warner, Google \[Tracking WG Chair\]
+* [] Anton Shipulin, Nozomi Networks
 * [] Avinash Nagadi
 * [] Basil Hess, IBM
 * [] Bill Turner, PKI Consortium
@@ -74,7 +75,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 
 ---
 
-# Short Meeting
+# Agenda
 
   - 7 PRs to review
   - 1 new issue / feature request to cover control systems - https://github.com/PQCA/wg-readiness-tracking/issues/63
