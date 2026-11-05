@@ -28,18 +28,18 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 ## Attendance (_Alphabetical by 1st name_)
 * [] Aditya Koranga, NgKore \[TAC Chair\]
 * [] Alexey Odinokov, PQC Ready
-* [] Andy Warner, Google \[Tracking WG Chair\]
-* [] Anton Shipulin, Nozomi Networks
+* [X] Andy Warner, Google \[Tracking WG Chair\]
+* [X] Anton Shipulin, Nozomi Networks
 * [] Avinash Nagadi
 * [] Basil Hess, IBM
 * [] Bill Turner, PKI Consortium
 * [] Christian Pfister, LGT Bank
 * [] Daniel Speciale, QInsight
-* [] Eric Mwobobia
+* [X] Eric Mwobobia
 * [] Ganesh Mallya, AppViewX
 * [] Guncha Malik, IBM
 * [] Hamid Heyhat, AG Swire
-* [] Hart Montgomery, Linux Foundation
+* [X] Hart Montgomery, Linux Foundation
 * [] Ian Palmer, GCIB
 * [] Iyán Méndez Veiga, HSLU / ETH Zurich
 * [] Jane Ginn, Cyber Threat Intelligence Network
@@ -58,7 +58,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 * [] Salvatore Migliaccio, Namirial
 * [] Shubham Kumar, NgKore
 * [] Sogo Pierre Sanon, Hydro Quebec Research Institute
-* [] Thomas Pöppelmann, Google
+* [X] Thomas Pöppelmann, Google
 * [] Tommaso Occari, Allianz
 * [] Tushar Shring, Volkswagen
 
