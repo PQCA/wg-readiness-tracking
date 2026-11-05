@@ -17,6 +17,7 @@ asymmetric cryptography.
 * [Cloud Services](cloud-services.md)
 * [Cryptographic Libraries](cryptography.md) - Tracking PQC readiness for cryptography libraries and tools
 * [HSMs](hsm.md) - Hardware Security Modules
+* [Industrial OT and CPS](industrial-ot-cps.md) - Tracking PQC readiness for industrial operational technology and cyber-physical systems
 * [TPMs](tpm.md) - Trusted Platform Modules
 * [Web Browsers](web-browsers.md) - Tracking PQC support in major web browsers
 
