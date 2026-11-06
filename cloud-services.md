@@ -5,7 +5,7 @@ This page tracks the Post-Quantum Cryptography (PQC) readiness of major Cloud Se
 Because cloud platforms encompass distinct infrastructure layers that mature on independent timelines, readiness is tracked across four functional cryptographic planes:
 
 1. **Key Management & Cloud HSM Services (KMS / HSM)**: Customer-managed keys (CMKs) for key encapsulation (KEM), envelope encryption, digital signatures, and key import (BYOK).
-2. **Edge, CDN, Load Balancing & API Ingress (Data-in-Transit TLS)**: Hybrid PQC key exchange in TLS 1.3 and HTTP/3 (QUIC) for ingress负载均衡, CDN edge termination, and service API endpoints.
+2. **Edge, CDN, Load Balancing & API Ingress (Data-in-Transit TLS)**: Hybrid PQC key exchange in TLS 1.3 and HTTP/3 (QUIC) for ingress, CDN edge termination, and service API endpoints.
 3. **Cloud PKI, Certificate Authorities & Artifact Signing**: Managed Private/Public Certificate Authorities (X.509 and Merkle Tree Certificates) and managed code/artifact signing services.
 4. **Cloud Interconnect, VPN & Service Mesh (Network Transit)**: Post-quantum IPsec VPNs, hybrid cloud interconnects, and internal service-to-service mesh encryption.
 
@@ -55,13 +55,15 @@ To be considered **Ready** within a specific cloud plane, a service must meet th
 
 ---
 
-## 3. Cloud PKI, Certificate Authorities & Artifact Signing
+## 3. Cloud PKI, Private Certificate Authorities & Artifact Signing
+
+Public Certificate Authorities are covered on the [Certificates page](./certificates.md)
 
 | Cloud Provider | Service | Capability / Plane | Status | Supported PQC Algorithms | Availability & Configuration | Notes / Documentation (Last Verified) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Amazon Web Services (AWS)** | **AWS Private CA & AWS Signer** | Managed Private PKI & Code Signing | **In Progress** | **TLS API Transit**: `X25519MLKEM768`<br>**KMS-Backed Signing**: `ML-DSA-44`, `ML-DSA-65`, `ML-DSA-87` (via AWS KMS) | **In Progress** (Direct `ML-DSA` signing available via AWS KMS; native X.509 `ML-DSA` CA hierarchies in AWS Private CA in development) | Customers can perform `ML-DSA` artifact/document signing today via AWS KMS (`SIGN_VERIFY` keys); AWS Certificate Manager (ACM) and Private CA control planes support hybrid PQC TLS. ([AWS KMS PQC Docs](https://docs.aws.amazon.com/kms/latest/developerguide/pqc.html) — Verified 2026-10) |
-| **Cloudflare** | **Cloudflare Zero Trust & Merkle Tree Certificates (MTC)** | WebPKI & Zero Trust PKI | **In Progress** | **WebPKI / MTC**: `ML-DSA` & Merkle Tree Certificates (`draft-ietf-plants-mtc`) | **In Progress** (Public experimental pilot with Chrome and Google Trust Services) | Cloudflare, Chrome, and Google Trust Services operate a live Merkle Tree Certificate (MTC) experiment to enable size-efficient quantum-safe WebPKI authentication without TLS handshake bloat. ([Cloudflare PQC Certificates](https://developers.cloudflare.com/ssl/post-quantum-cryptography/), [IETF PLANTS WG](https://datatracker.ietf.org/wg/plants/about/) — Verified 2026-10) |
-| **Google Cloud (GCP)** | **Google Trust Services (GTS), Certificate Authority Service (CAS) & KMS Artifact Signing** | Public/Private PKI & Code Signing | **In Progress** | **Artifact Signing (via Cloud KMS)**: `ML-DSA-44/65/87`, `SLH-DSA-SHA2-128S`<br>**WebPKI Pilot**: Merkle Tree Certificates (MTC)<br>**Managed X.509 CAs**: *In Progress* | **In Progress** (KMS-backed `ML-DSA`/`SLH-DSA` signing is **GA**; WebPKI MTC pilot active; managed PQC X.509 CA issuance in progress) | Customers can sign software artifacts and containers today using Cloud KMS `ML-DSA` and `SLH-DSA` keys; Google Trust Services is co-leading the IETF PLANTS / Chrome Merkle Tree Certificate rollout for WebPKI. ([Cloud KMS PQC Signing](https://cloud.google.com/kms/docs/pqc), [Chrome Quantum-Safe WebPKI Blog](https://security.googleblog.com/2026/03/sustaining-digital-trust-journey-toward.html) — Verified 2026-10) |
+| **Cloudflare** | **Cloudflare One / Zero Trust** | Zero Trust PKI | **In Progress** |  ([Cloudflare PQC Certificates](https://developers.cloudflare.com/ssl/post-quantum-cryptography/pqc-and-zero-trust/) — Verified 2026-10) |
+| **Google Cloud (GCP)** | **Certificate Authority Service (CAS) & KMS Artifact Signing** | Private PKI & Code Signing | **In Progress** | **Artifact Signing (via Cloud KMS)**: `ML-DSA-44/65/87`, `SLH-DSA-SHA2-128S`<br>**Managed Enterprise X.509 CAs**: *In Progress* | **In Progress** (KMS-backed `ML-DSA`/`SLH-DSA` signing is **GA**; managed PQC X.509 CA issuance in progress) | Customers can sign software artifacts and containers today using Cloud KMS `ML-DSA` and `SLH-DSA` keys; ([Cloud KMS PQC Signing](https://cloud.google.com/kms/docs/pqc), [Chrome Quantum-Safe WebPKI Blog](https://security.googleblog.com/2026/03/sustaining-digital-trust-journey-toward.html) — Verified 2026-10) |
 | **Microsoft Azure** | **Azure Artifact Signing (formerly Trusted Signing)** | Managed Code & Artifact Signing | **In Progress** | **Platform Crypto**: `ML-DSA-44`, `ML-DSA-65`, `ML-DSA-87` (in `SymCrypt` / Windows CNG) | **In Progress** | Underlying Windows/`SymCrypt` cryptographic primitives support `ML-DSA`; managed PQC certificate profiles in Azure Artifact Signing are in staged development. ([Microsoft Quantum-Safe Program](https://aka.ms/quantum-safe) — Verified 2026-10) |
 
 ---
